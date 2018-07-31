@@ -1,0 +1,118 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    background-color: #050505;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:hover {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:visited {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:active {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+.header {
+    color: white;
+    border-color: white;
+    background-image: url(/img/topbg.jpg);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.header-text {
+    display: inline-block;
+}
+.header-title {
+    font-size: 5em;
+    font-weight: 100;
+    font-style: italic;
+    border-width: 2px;
+    border-bottom-style: solid;
+    display: inline-block;
+}
+.header-subtitle {
+    font-size: 2.8em;
+    font-weight: 300;
+    text-align: right;
+}
+.card {
+    margin-top: 10px;
+}
+.card-header {
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 1px;
+    border-bottom-style: solid;
+    line-height: 0.8em;
+}
+.card-subheader {
+    font-size: 0.6em;
+    color: #FFFB;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-content {
+    margin-top: 10px;
+    color: #FFFC;
+    text-align: justify;
+}
+.card-btns {
+    text-align: center;
+    margin-top: 10px
+}
+
+.card-primarybtn > a {
+    text-decoration-color: #0000;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1.5em;
+    display: inline-block;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: white;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+.card-primarybtn > a:hover {
+    color: white;
+    background-color: black;
+}
+
+.card-secondarybtn > a {
+    text-decoration-color: #0000;
+    color: #FFF9;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+.card-secondarybtn > a:hover {
+    color: white;
+}
+
