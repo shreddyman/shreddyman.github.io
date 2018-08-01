@@ -1,7 +1,10 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0px;
-    background-color: #050505;
+    background-image: url(/img/greyscalebg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     color: white;
 }
 a {
@@ -61,13 +64,13 @@ h4 {
     display: inline-block;
 }
 .header-title {
-    font-size: 4.4em;
+    font-size: 4em;
     font-weight: 100;
     display: inline-block;
 }
 .header-subtitle {
     color: #fffa;
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: 300;
 }
 .back-btn > a {
@@ -91,9 +94,15 @@ h4 {
 
 .back-btn > a:hover {
     color: white;
-    background-color: black;
+    background-color: transparent;
+    display: inline-block;
 }
-
+.theme-selector {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 .act-list-header {
     text-transform: uppercase;
     text-align: right;
