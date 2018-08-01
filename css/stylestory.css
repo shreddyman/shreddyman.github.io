@@ -1,0 +1,141 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    background-color: #050505;
+    color: white;
+}
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:hover {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:visited {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+a:active {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+.story {
+    font-family: Roboto Slab, serif;
+    font-size: 16px;
+}
+h4 {
+    font-size: 2em;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.story > .sticky {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: #050505;
+}
+.sticky#navbar {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 15px;
+}
+.header {
+    color: white;
+    background-color: #0007;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.header-text {
+    display: inline-block;
+}
+.header-title {
+    font-size: 4.4em;
+    font-weight: 100;
+    display: inline-block;
+}
+.header-subtitle {
+    color: #fffa;
+    font-size: 2.3em;
+    font-weight: 300;
+}
+.back-btn > a {
+    text-decoration-color: #0000;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1em;
+    display: inline-block;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+.back-btn > a:hover {
+    color: white;
+    background-color: black;
+}
+
+.act-list-header {
+    text-transform: uppercase;
+    text-align: right;
+}
+.nav-link {
+    text-align: right;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    border-bottom-width: 1px;
+}
+.nav>li>a:hover {
+    border-bottom-color: white;
+    background-color: transparent;
+}
+.nav>li.active>a {
+    background-color: white;
+    color: black;
+}
+.nav a:active {
+    color: black;
+}
+
+.nav > li:not(.active) > a:focus {
+    text-decoration: none;
+    color: white;
+}
+.nav > li.active > a:focus {
+    text-decoration: none;
+    color: black;
+}
+#navbar {
+    overflow-y: auto;
+    height: 95vh;
+    -ms-overflow-style: none
+}
+
+#navbar::-webkit-scrollbar {
+    width: 0px;
+}
+
+@media (max-width: 767px) {
+    #navbar {
+        display: none;
+    }
+}

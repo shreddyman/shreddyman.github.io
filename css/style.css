@@ -4,6 +4,7 @@ body {
     background-image: url(/img/topbg.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     color: white;
 }
 a {
@@ -22,6 +23,7 @@ a:active {
   color: white;
   text-decoration: none; /* no underline */
 }
+
 .header {
     color: white;
     border-color: white;
@@ -95,7 +97,7 @@ a:active {
 
 .card-primarybtn > a:hover {
     color: white;
-    background-color: black;
+    background-color: transparent;
 }
 
 .card-secondarybtn > a {
